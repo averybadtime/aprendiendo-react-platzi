@@ -1,0 +1,45 @@
+.BadgesList__item {
+  align-items: center;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, .15);
+  display: flex;
+  margin-bottom: 10px;
+  padding: .75rem;
+}
+
+.BadgesList__item-photo {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  overflow: hidden;
+  width: 50px;
+}
+
+.BadgesList__item-photo img {
+  width: 100%;
+}
+
+.BadgesList__item-information {
+  margin-left: 1rem;
+}
+
+.BadgesList__item-information .name {
+  color: #1b1b25;
+  font-size: 1.25rem;
+}
+
+.BadgesList__item-information .twitter,
+.BadgesList__item-information .job-title {
+  font-size: .8rem;
+}
+
+.BadgesList__item-information .twitter {
+  color: rgb(14, 137, 238);
+}
+
+.BadgesList__item-information .job-title {
+  color: #a1a1a1;
+}
